@@ -7,9 +7,9 @@ def weeklyExpenses(input):
     20.5:"Hindu",
     34: "ET",
     10.5:"BM",
-    16.4:"HT",
+    18:"HT",
     };
-    prices=[26,20.5,34,10.5,16.4]
+    prices=[26,20.5,34,10.5,18]
     papers=[]
 # storing all possible combinations to a variable
     combination=list(itertools.combinations(prices, 2))
